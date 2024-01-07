@@ -1,8 +1,11 @@
 ---
 title: Frequently Asked Questions
+aside: false
 ---
 
 # FAQs
+
+[[toc]]
 
 ## How is this work funded?
 

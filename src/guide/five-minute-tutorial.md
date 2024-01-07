@@ -1,8 +1,11 @@
 ---
 title: "5 Minute beginner tutorial: Research Object Crates (RO-Crate) and Describo"
+aside: false
 ---
 
 # Beginner Tutorial: Research Object Crates (RO-Crate) and Describo
+
+[[toc]]
 
 ## Introduction
 
@@ -16,7 +19,7 @@ In this 5 minute tutorial, you will get started describing your data as RO-Crate
     <img src="../images/tutorial1.png" />
 </div>
 
-## Audience: about you.
+## Audience: about you
 
 You've heard about these nifty RO-Crate things and want to start describing your data in an open and
 spec conformant way. Maybe you can explain what JSON-LD is and maybe you've looked at the spec but
@@ -71,7 +74,7 @@ The profile selector. Locate the RO-Crate profile and select it.
 When the RO-Crate profile has been applied, you will be presented with a view that contains the
 absolute bare minimum required to describe your data as an RO-Crate.
 
-### useful information
+### Useful information
 
 -   [Root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html)
 -   [Contextual entities](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html)
@@ -86,9 +89,9 @@ absolute bare minimum required to describe your data as an RO-Crate.
 Click the add button in the toolbar and inject properties into the data.
 
 <div class="flex justify-center">
-<div class="border border-slate-400">
-    <img src="../images/tutorial7.png" class="w-32"/>
-</div>
+    <div class="border border-slate-400">
+        <img src="../images/tutorial7.png" class="w-32"/>
+    </div>
 </div>
 
 The properties you can inject come from schema.org and the describo profile if one is applied. They
