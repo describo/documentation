@@ -24,3 +24,36 @@ layout: doc
 ---
 
 # Describo Documentation
+
+Are you a user looking to get started with Describo?
+
+::: tip Get the application
+
+Install the [Describo desktop application](https://describo.github.io/#/desktop) to get a full
+featured environment for creating and managing your research data including being able to describe
+files, manage data packs and much, much more (coming soon).
+
+:::
+
+Otherwise, use the links in the sidebar to get to know the product.
+
+If you're new to RO-Crates, start with the [5 minute tutorial](/guide/five-minute-tutorial).
+
+## Like this work?
+
+If you like this work please consider giving us a
+<i class="fa-solid fa-star text-yellow-400 fa-2x"></i> on github @
+[https://github.com/describo/describo.github.io](https://github.com/describo/describo.github.io)
+(It's ok if you want to star the other repo's too!)
+
+<div class="flex justify-center">
+    <img src="./images/describo-star-us.png" class="h-48"/>
+</div>
+
+#### Cite Describo in your publications
+
+::: info
+
+Marco La Rosa and contributors. 2023 - present. Describo. https://describo.github.io
+
+:::

@@ -130,5 +130,10 @@ Technical Lead of the Describo Project.
 
 Peter envisioned a tool that copies most of the Describo innovations but is architected differently
 and so decided to pursue that vision elsewhere using funding from the Language Data Commons Project
-of Australia. Peter has not been associated with the Describo project or any of its components since
-early 2023.
+of Australia.
+
+::: tip Info
+
+Peter has not been associated with the Describo project or any of its components since early 2023.
+
+:::
