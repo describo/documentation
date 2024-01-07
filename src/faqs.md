@@ -10,13 +10,16 @@ Various elements of the describo ecosystem have been developed via project fundi
 sources. You can read about the history and who has provided funding for this work on the
 [about page](/about).
 
-::: info
-
-Describo is currently unfunded. It you like it and find it useful, please reach out to discuss how
-you can support its development. <a href="mailto:m@lr.id.au" target="_blank">Email Marco La
-Rosa.</a>
-
-:::
+<div
+    class="flex flex-row space-x-4 items-center bg-slate-100 p-4 text-slate-800 rounded-lg my-4"
+>
+    <div><i class="text-red-600 fa-solid fa-circle-info fa-2x"></i></div>
+    <div>
+        Describo is currently unfunded. It you like it and find it useful, please
+        reach out to discuss how you can support its development.
+        <a href="mailto:m@lr.id.au" target="_blank">Email Marco La Rosa.</a>
+    </div>
+</div>
 
 ## Why is the desktop application more functional than the web version?
 

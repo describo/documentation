@@ -58,15 +58,15 @@ export default defineConfig({
                 text: "Guide",
                 items: [{ text: "5 minute tutorial", link: "/guide/five-minute-tutorial" }],
             },
-            {
-                text: "Examples",
-                items: [
-                    { text: "Markdown Examples", link: "/markdown-examples" },
-                    { text: "Runtime API Examples", link: "/api-examples" },
-                ],
-            },
+            // {
+            //     text: "Examples",
+            //     items: [
+            //         { text: "Markdown Examples", link: "/markdown-examples" },
+            //         { text: "Runtime API Examples", link: "/api-examples" },
+            //     ],
+            // },
         ],
 
-        socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+        socialLinks: [{ icon: "github", link: "https://github.com/describo" }],
     },
 });

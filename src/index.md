@@ -25,15 +25,21 @@ layout: doc
 
 # Describo Documentation
 
+## Get Describo
+
 Are you a user looking to get started with Describo?
 
-::: tip Get the application
-
-Install the [Describo desktop application](https://describo.github.io/#/desktop) to get a full
-featured environment for creating and managing your research data including being able to describe
-files, manage data packs and much, much more (coming soon).
-
-:::
+<div
+    class="flex flex-row space-x-4 items-center bg-slate-100 p-8 text-slate-800 rounded-lg my-4"
+>
+    <div><i class="text-yellow-400 fa-2x fa-solid fa-circle-info"></i></div>
+    <div>
+        Install the <a href="https://describo.github.io/#/desktop" target="_blank">Describo desktop application</a>
+        to get a full
+        featured environment for creating and managing your research data including being able to describe
+        files, manage data packs and much, much more (coming soon).
+    </div>
+</div>
 
 Otherwise, use the links in the sidebar to get to know the product.
 
@@ -50,9 +56,9 @@ If you like this work please consider giving us a
     <img src="./images/describo-star-us.png" class="h-48"/>
 </div>
 
-#### Cite Describo in your publications
+## Cite Describo
 
-::: info
+::: tip Citation
 
 Marco La Rosa and contributors. 2023 - present. Describo. https://describo.github.io
 
