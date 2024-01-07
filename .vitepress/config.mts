@@ -5,6 +5,7 @@ export default defineConfig({
     title: "Describo Documentation",
     base: "/documentation/",
     srcDir: "./src",
+    outDir: "./docs",
     head: [
         [
             "link",
