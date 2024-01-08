@@ -5,9 +5,11 @@ title: Getting Started
 # Describo Profiles
 
 Describo is driven by profiles. A profile is a set of instructions to the UI to describe how it
-should act. This repository is the documentation for writing a profile. It also contains a small
-application you can use to validate your profile. And there are example profiles in the repository
-as well.
+should act. Put another way, Describo profiles limit what your users can describe.
+
+By default, Describo makes available all of Schema.org. Often times we don't want to expose all of
+this to our users so profiles are a way for a community to tell Describo exactly what users are
+allowed to describe.
 
 ## Profile versions - READ THIS
 
@@ -23,10 +25,6 @@ evolution of those.
 :::
 
 ## Profile documentation
-
-Describo profiles are a way to limit what your users can describe. By default, Describo makes
-available all of Schema.org. Often times we don't want to expose all of this to our users so
-profiles are a way for a community to tell Describo exactly what users are allowed to describe.
 
 -   [Profile Structure](/profiles/profile-structure.md)
     -   [Context](/profiles/contexts.md)
