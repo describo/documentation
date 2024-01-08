@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { sidebar } from "../sidebar-menu.js";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -45,28 +46,7 @@ export default defineConfig({
             //{ text: 'Examples', link: '/markdown-examples' }
         ],
 
-        sidebar: [
-            {
-                text: "About",
-                link: "/about",
-            },
-            {
-                text: "Frequently Asked Questions",
-                link: "/faqs",
-            },
-            {
-                text: "Guide",
-                items: [{ text: "5 minute tutorial", link: "/guide/five-minute-tutorial" }],
-            },
-            // {
-            //     text: "Examples",
-            //     items: [
-            //         { text: "Markdown Examples", link: "/markdown-examples" },
-            //         { text: "Runtime API Examples", link: "/api-examples" },
-            //     ],
-            // },
-        ],
-
+        sidebar,
         socialLinks: [{ icon: "github", link: "https://github.com/describo" }],
     },
 });

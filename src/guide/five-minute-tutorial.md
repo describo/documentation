@@ -5,6 +5,8 @@ aside: false
 
 # Beginner Tutorial: Research Object Crates (RO-Crate) and Describo
 
+Get know Describo and how it creates RO-Crates in 5 minutes!
+
 [[toc]]
 
 ## Introduction
