@@ -8,9 +8,23 @@ export const sidebar = [
         link: "/faqs",
     },
     { text: "Beginner Tutorial", link: "/guide/five-minute-tutorial" },
+    // {
+    //     text: "User Guide",
+    //     items: [],
+    // },
     {
-        text: "Guide",
-        items: [],
+        text: "Profiles",
+        items: [
+            { text: "Getting Started", link: "/profiles/getting-started" },
+            { text: "Profile Structure", link: "/profiles/profile-structure" },
+            { text: "Context", link: "/profiles/contexts" },
+            { text: "Layouts", link: "/profiles/layouts" },
+            { text: "Localisation", link: "/profiles/localisation" },
+            { text: "Resolve", link: "/profiles/resolve" },
+            { text: "Classes and Inputs", link: "/profiles/classes-and-inputs" },
+            { text: "Lookups", link: "/profiles/lookups" },
+            { text: "Data Types", link: "/profiles/types" },
+        ],
     },
     {
         text: "Component",
