@@ -9,19 +9,23 @@
                 <i class="fa-solid fa-chevron-left"></i>
             </div>
             <div v-auto-animate="{ duration: 300 }">
-                <card :key="ref(idx)" v-for="(card, idx) of cards" :class="{ hidden: idx !== n }">
+                <card :class="{ hidden: idx !== n }" v-for="(card, idx) of cards" :key="ref(idx)">
                     <template #text><div v-html="card.text"></div></template>
                     <template #image>
                         <div class="flex flex-col space-y-2">
+                            <!-- <img :src="images[props.cards[0].image.split('/').pop()]" /> -->
+                            <!-- <img :src="images?.[0]?.default" /> -->
+
                             <img
                                 v-if="!isArray(card.image)"
-                                :src="card.image"
+                                :src="images[card.image.split('/').pop()]"
                                 class="object-contain"
                             />
                             <img
                                 v-else
                                 v-for="image of card.image"
-                                :src="image"
+                                :key="image"
+                                :src="images[image.split('/').pop()]"
                                 class="object-contain"
                             />
                         </div>
@@ -58,24 +62,20 @@ import { ref, onBeforeMount } from "vue";
 import isArray from "lodash-es/isArray.js";
 
 const props = defineProps({
-    cards: { type: Array },
+    cards: { type: Array, require: true },
+    importGlob: { type: Object, require: true },
 });
 
+let images = ref();
+// let images = ref([]);
 onBeforeMount(async () => {
-    let images = [];
-    for (let card of props.cards) {
-        if (isArray(card.image)) {
-            for (let image of card.image) {
-                if (!image) continue;
-                images.push(await import(image));
-            }
-        } else {
-            if (!card.image) continue;
-            images.push(await import(card.image));
-        }
-    }
+    images.value = Object.fromEntries(
+        Object.entries(props.importGlob).map(([key, value]) => [
+            key.split("/").pop(),
+            value.default,
+        ])
+    );
 });
-
 const n = ref(0);
 function nextCard() {
     n.value = n.value < props.cards.length - 1 ? (n.value += 1) : 0;

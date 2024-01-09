@@ -5,6 +5,8 @@ aside: false
 
 <script setup>
 
+const glob = import.meta.glob("../guide/images/tour/*.png", { eager: true });
+
 import Stack from '../vue-components/Stack.vue'
 const cards = [
     {
@@ -71,4 +73,4 @@ const cards = [
 ];
 </script>
 
-<Stack :cards="cards" class="p-4 bg-slate-100 rounded-lg"></Stack>
+<Stack :cards="cards" :import-glob="glob" class="p-4 bg-slate-100 rounded-lg"></Stack>
