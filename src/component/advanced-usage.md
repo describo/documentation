@@ -50,7 +50,7 @@ properties:
 
 Following are some examples of how you can use these methods.
 
-## Add some data to crate, modify the root dataset and refresh the display
+## Add data to the crate; modify the root dataset and refresh the display
 
 ::: warning NOTE!
 

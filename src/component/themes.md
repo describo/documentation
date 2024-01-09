@@ -63,7 +63,7 @@ All of the available css prop's are shown following:
     /* use this to target the background of all properties */
 }
 .describo-property-heading {
-    /* target the label of all proeprties except core: '@id', '@type' and 'name' */
+    /* target the label of all properties except core: '@id', '@type' and 'name' */
 
 }
 .describo-property-value-readonly {

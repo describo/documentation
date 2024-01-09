@@ -31,7 +31,7 @@ let rd = cm.getRootDataset()
 
 ```JS
 // get an entity
-let e = cm.getEntity('./')
+let e = cm.getEntity({ id: './' })
 ```
 
 ```JS
@@ -48,7 +48,7 @@ let e = cm.addEntity({ '@id': ..., '@type': ..., ... })
 ```
 
 And much more. See the
-[API documentation for more information and examples](https://describo.github.io/crate-build-component)
+[API documentation for more information and examples](https://describo.github.io/crate-builder-component)
 
 ## How does it compare to ro-crate-js
 

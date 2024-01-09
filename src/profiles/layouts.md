@@ -71,8 +71,6 @@ applied to the following entities:
 @type = ['Dataset', 'Organisation']
 ```
 
-Note that the order of the `@type` array in the entity definition is not important.
-
 If multiple layouts match (for example: `@type` = ['Dataset', 'Language']), then the first matching
 layout will be applied (in this case layout 1).
 

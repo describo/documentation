@@ -34,7 +34,7 @@ eexport function validateId({ id, type }) {
     }
 
     if (type) {
-        // if type matches File then whatever is provided is valid
+        // if type matches File or Dataset then whatever is provided is valid
         type = isArray(type) ? type.join(", ") : type;
         if (type.match(/file/i)) return { isValid: true };
         if (type.match(/Dataset/i)) return { isValid: true };
@@ -62,14 +62,6 @@ eexport function validateId({ id, type }) {
     if (id.match(/arcp:\/\/uuid,.*/)) return { isValid: true };
     if (id.match(/arcp:\/\/ni,sha-256;,.*/)) return { isValid: true };
     // return { isValid: true };
-
-    // if there are spaces in the id - then it's invalid no matter what it is
-    // if (id.match(/\s+/)) {
-    //     return {
-    //         isValid: false,
-    //         message: `'@id' contains spaces`,
-    //     };
-    // }
 
     // otherwise check that the id is a valid IRI
     try {

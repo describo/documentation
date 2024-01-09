@@ -13,6 +13,14 @@ aside: false
 npm install --save @describo/crate-builder-component
 ```
 
+## Install the dependencies: Fontawesome free icons and element-plus
+
+```bash
+npm install --save element-plus \
+    @fortawesome/fontawesome-free \
+    @fortawesome/fontawesome-svg-core
+```
+
 ## Vite users
 
 Vite requires some extra configuration in order to use this component.
@@ -66,14 +74,6 @@ _their_ documentation.
 
 The app can handle updating the route with the current active entity or that capability can be
 completely disabled (ie you want to do it yourself or maybe you're using the webcomponent build).
-
-## Fontawesome free icons and element-plus dependencies
-
-```bash
-npm install --save element-plus \
-    @fortawesome/fontawesome-free \
-    @fortawesome/fontawesome-svg-core
-```
 
 ## Wire it up as a plugin
 
