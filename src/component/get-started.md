@@ -1,9 +1,9 @@
 ---
-title: Getting started
+title: Get started
 aside: false
 ---
 
-# Getting started with the component
+# Get started with the component
 
 [[toc]]
 

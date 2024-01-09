@@ -13,13 +13,14 @@ export const sidebar = [
         text: "Desktop User Guide",
         items: [
             { text: "Product Tour", link: "/guide/tour" },
+            { text: "Installation", link: "/guide/installation" },
             { text: "Working with a Crate", link: "/guide/working-with-a-crate" },
         ],
     },
     {
         text: "Profiles",
         items: [
-            { text: "Getting Started", link: "/profiles/getting-started" },
+            { text: "Get Started", link: "/profiles/get-started" },
             { text: "Profile Structure", link: "/profiles/profile-structure" },
             { text: "Context", link: "/profiles/contexts" },
             { text: "Layouts", link: "/profiles/layouts" },
@@ -33,7 +34,7 @@ export const sidebar = [
     {
         text: "Component",
         items: [
-            { text: "Getting Started", link: "/component/getting-started" },
+            { text: "Get Started", link: "/component/get-started" },
             { text: "Usage & Configuration", link: "/component/usage-and-configuration" },
             { text: "Advanced Usage", link: "/component/advanced-usage" },
             { text: "Crate Manager", link: "/component/crate-manager" },
