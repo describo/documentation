@@ -5,7 +5,7 @@ aside: false
 
 <script setup>
 
-const glob = import.meta.glob("../guide/images/tour/*.png", { eager: true });
+const glob = import.meta.glob("../guide/images/tour/*.png", { eager: true })
 
 import Stack from '../vue-components/Stack.vue'
 const cards = [

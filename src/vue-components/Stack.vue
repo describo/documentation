@@ -13,19 +13,16 @@
                     <template #text><div v-html="card.text"></div></template>
                     <template #image>
                         <div class="flex flex-col space-y-2">
-                            <!-- <img :src="images[props.cards[0].image.split('/').pop()]" /> -->
-                            <!-- <img :src="images?.[0]?.default" /> -->
-
                             <img
                                 v-if="!isArray(card.image)"
-                                :src="images[card.image.split('/').pop()]"
+                                :src="getImage(card.image)"
                                 class="object-contain"
                             />
                             <img
                                 v-else
                                 v-for="image of card.image"
                                 :key="image"
-                                :src="images[image.split('/').pop()]"
+                                :src="getImage(image)"
                                 class="object-contain"
                             />
                         </div>
@@ -66,8 +63,7 @@ const props = defineProps({
     importGlob: { type: Object, require: true },
 });
 
-let images = ref();
-// let images = ref([]);
+let images = ref({});
 onBeforeMount(async () => {
     images.value = Object.fromEntries(
         Object.entries(props.importGlob).map(([key, value]) => [
@@ -77,6 +73,9 @@ onBeforeMount(async () => {
     );
 });
 const n = ref(0);
+function getImage(image) {
+    return images.value[image.split("/").pop()];
+}
 function nextCard() {
     n.value = n.value < props.cards.length - 1 ? (n.value += 1) : 0;
 }
