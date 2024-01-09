@@ -11,7 +11,10 @@ export const sidebar = [
     { text: "Team", link: "/team" },
     {
         text: "Desktop User Guide",
-        items: [{ text: "Product Tour", link: "/guide/tour.md" }],
+        items: [
+            { text: "Product Tour", link: "/guide/tour" },
+            { text: "Working with a Crate", link: "/guide/working-with-a-crate" },
+        ],
     },
     {
         text: "Profiles",
