@@ -9,7 +9,7 @@ import Stack from '../vue-components/Stack.vue'
 const cards = [
     {
         text: "The dashboard. Select a folder of content to describe; load a previously used folder or manage data pack data.",
-        image: "/documentation/guide/images/tour/desktop1.png",
+        image: "./images/tour/desktop1.png",
     },
     {
         text: "Context aware help.",
@@ -60,10 +60,10 @@ const cards = [
         text: `There are controls to view the entities in the crate and jump directly to any entity wherever it is.`,
         image: "./images/tour/desktop10.png",
     },
-    { text: `There is also a control to directly edit the context.`, image: "./images/desktop11.png" },
-    { text: `And one to preview the JSON linked data.`, image: "./images/desktop12.png" },
-    { text: `Describo is themable.`, image: "./images/desktop13.png" },
-    { text: `Describo can display crates in readonly mode.`, image: "./images/desktop14.png" },
+    { text: `There is also a control to directly edit the context.`, image: "./images/tour/desktop11.png" },
+    { text: `And one to preview the JSON linked data.`, image: "./images/tour/desktop12.png" },
+    { text: `Describo is themable.`, image: "./images/tour/desktop13.png" },
+    { text: `Describo can display crates in readonly mode.`, image: "./images/tour/desktop14.png" },
     {
         text: `Describo can display complex entities like actions and relationships that link other entities together.`,
         image: "./images/tour/desktop15.png",

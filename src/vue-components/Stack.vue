@@ -54,14 +54,29 @@
 <script setup>
 import { vAutoAnimate } from "@formkit/auto-animate";
 import Card from "./Card.vue";
-import { ref } from "vue";
+import { ref, onBeforeMount } from "vue";
 import isArray from "lodash-es/isArray.js";
 
 const props = defineProps({
     cards: { type: Array },
 });
-const n = ref(0);
 
+onBeforeMount(async () => {
+    let images = [];
+    for (let card of props.cards) {
+        if (isArray(card.image)) {
+            for (let image of card.image) {
+                if (!image) continue;
+                images.push(await import(image));
+            }
+        } else {
+            if (!card.image) continue;
+            images.push(await import(card.image));
+        }
+    }
+});
+
+const n = ref(0);
 function nextCard() {
     n.value = n.value < props.cards.length - 1 ? (n.value += 1) : 0;
 }
