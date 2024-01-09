@@ -9,7 +9,7 @@ import Stack from '../vue-components/Stack.vue'
 const cards = [
     {
         text: "The dashboard. Select a folder of content to describe; load a previously used folder or manage data pack data.",
-        image: "./images/tour/desktop1.png",
+        image: "/guide/images/tour/desktop1.png",
     },
     {
         text: "Context aware help.",
