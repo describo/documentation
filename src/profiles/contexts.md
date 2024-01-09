@@ -37,7 +37,7 @@ Following is a stripped down example of the structure of an RO-Crate file with t
 ```
 
 In this instance the context is a string. But it can be an object or array of things as in the
-following examples:
+following example:
 
 -   An array with the RO Crate context.
 
@@ -54,9 +54,9 @@ following examples:
 
 ## A context including DublinCore and FOAF vocabs
 
-An array with the RO Crate context and Friend of a Friend (FOAF) and Dublin Core Terms. In this
-example we are adding in the additional ontologies and namespacing them. We'll see how to use this
-further on.
+In the following example, the context is an array containing the RO Crate context along with Friend
+of a Friend (FOAF) and Dublin Core Terms (DCTerms). In this example we are adding in the additional
+ontologies and namespacing them. We'll see how to use this further on.
 
 ```JSON
 {

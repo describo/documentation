@@ -40,7 +40,7 @@ See [All about contexts](./contexts.md) for more information.
 
 ## Layouts
 
-This section define how to group properties into sections.
+This section defines how to group properties and display them in tabs.
 
 See [Layouts for a detailed account of these sections.](./layouts.md)
 
@@ -53,16 +53,14 @@ See [All about localisation](./localisation.md) for more information.
 
 ## Resolve
 
-The resolve section allows you to specify that entities linked from relationship type entities (e.g.
-Relationships and Actions - Create, Move, Update etc.) are to be displayed.
+The resolve section allows you to specify that entities linked from linking type entities (e.g.
+Relationships and Actions - Create, Move, Update etc.) are to be displayed as well.
 
 See [All about resolve](./resolve.md) for more information.
 
 ## Classes
 
-This section contains class definitions a user can use in their dataset description. The structure
-is similar to the hide and layouts sections above where the key is the stringified `@type` and it
-provides the definition of what can and can't be described to the UI.
+This section contains class definitions users can use in their descriptions.
 
 See [Classes and Inputs for a detailed account of this section.](./classes-and-inputs.md)
 

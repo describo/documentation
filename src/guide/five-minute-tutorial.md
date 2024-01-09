@@ -43,7 +43,8 @@ Microsoft Edge for now.)
 ::: tip
 
 Describo web is good for getting started quickly and easily. You can inspect an RO-Crate and load
-profiles to work with the data. But Desktop has more capabilities.
+profiles to work with the data. It does not have the capabilities of
+[Describo desktop](https://describo.github.io/#/desktop) but for basic usage, that's not needed.
 
 :::
 

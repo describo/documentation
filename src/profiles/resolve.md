@@ -11,7 +11,7 @@ that information you can define a resolve property in the profile.
 
 The resolve property looks like:
 
-```
+```JSON
     "resolve": [
         { "types": ["Relationship", "Related"], "properties": ["source", "target"] },
         {
@@ -23,9 +23,9 @@ The resolve property looks like:
 
 In this example we have two configurations:
 
--   the first says that any entity with a type of `Relationship or Related` should have
+-   the first says that any entity with a type of `Relationship` or `Related` should have
     `source and target` properties resolved.
--   the second defines `CreateAction and EditAction` to have the `object, participant, and agent`
+-   the second defines `CreateAction` and `EditAction` to have the `object, participant, and agent`
     properties resolved.
 
 Without the resolve property you see:

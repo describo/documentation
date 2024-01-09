@@ -27,7 +27,7 @@ The overall structure of a class definition is as follows:
 
 Each class definition has three properties that are all required:
 
--   `definition`: 'override' or 'inherit'. If set to `inherit`, Describo will enable the user to add
+-   `definition`: `override` or `inherit`. If set to `inherit`, Describo will enable the user to add
     properties from the class hierarchy defined in schema.org if a matching class exists. So for
     example, if you define a Dataset class (which also exists in schema.org), then inherit will
     automatically populate all of the schema.org properties into this definition for you (including
@@ -112,7 +112,7 @@ define it in the profile. Indeed, it will not be used.
 ### input definitions
 
 Any inputs defined in the profile will automatically be rendered to the screen. This is true whether
-the definition is set to 'override' or 'inherit'. So, if you want a set of properties rendered by
+the definition is set to `override` or `inherit`. So, if you want a set of properties rendered by
 default (ie show a row for each property as a guide to the user) then define those properties in the
 inputs of the relevant type.
 

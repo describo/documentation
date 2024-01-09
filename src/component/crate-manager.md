@@ -1,12 +1,15 @@
 ---
 title: Crate Manager
+aside: false
 ---
 
 # Crate Manager
 
-The component has a built in Crate Manager that knows how to work with an RO-Crate and manipulate
-the data based on actions within the component. As this is now available to users of the component
-it's worth noting that it can be used in your application without using the component.
+[[toc]]
+
+The component has a built in RO-Crate manager that knows how to work with and manipulate the data
+based on actions within the component. As this is now available to users of the component it's worth
+noting that it can be used in your application without using the component.
 
 ## Initialisation and usage
 
@@ -81,3 +84,12 @@ same as that package but in a very different way.
 See the API documentation
 ([https://describo.github.io/crate-builder-component](https://describo.github.io/crate-builder-component))
 for what you can do and whether it fits your needs.
+
+As at January 2024, Crate Manager is significantly smalller than the ro-crate-js library.
+
+| library      | Lines of Code | %   |
+| ------------ | ------------- | --- |
+| CrateManager | 718           | 62  |
+| ro-crate-js^ | 1164          | 100 |
+
+^The ro crate schema was removed from the defaults file for this count.

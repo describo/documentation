@@ -21,8 +21,8 @@ Funded by: [![](./images/logos/uts-logo.png)](https://uts.edu.au)
 
 ## October 2020 - December 2020
 
-Whilst very well received and proof of the validity of the concept, the Describo Desktop application
-had limitations. In a second engagement Peter re-engaged Marco and developed a specification for the
+Whilst very well received and proof of the validity of the concept, Peter wanted an online
+application. In a second engagement Peter re-engaged Marco and developed a specification for the
 Describo Online application. This was a web based version with an internal database to manage
 entities and the ability to talk to various backend storage systems via rclone. Peter's vision was
 to have a singular application that could be deployed as a standalone tool or embed into external
@@ -67,11 +67,11 @@ Funded by:
 
 ## January 2022
 
-With funding from the Language Data Commons Project (LDACA), Peter asked Marco if he could create a
+With funding from the Language Data Commons Project (LDACA), Peter again engaged Marco to create a
 version of Online that users could run on their local machines. With all of Peter's efforts directed
 into the Online version, a critical gap existed for users who just wanted a tool to edit RO crates
-without needing to run a web application. To solve this problem Marco developed a wrapper to run the
-Online version on a users' own computer via docker containers.
+locally without needing to run a SAAS service. To solve this problem Marco developed a wrapper to
+run the Online version on a users' own computer via docker containers.
 
 Funded by:
 
@@ -84,15 +84,17 @@ Funded by:
 By this time, difficulties using the Online version in external applications (Sciebo RDS and the
 Nyingarn Workspace) were evident. The Sciebo team were managing their own fork so that they could
 customise it to suit their environment and Marco was finding it difficult to synchronise the
-Describo internal state with the Nyingarn internal state.
+Describo internal state with the Nyingarn internal state. Furthermore, different backends supported
+different capabitiies. For example, OneDrive for business supported short lived file url's that
+could be used to display file previews but OneDrive personal did not (and neither did Owncloud).
 
 Given these issues, and with support from the Nyingarn Project, Marco conceptualised and developed
-the crate builder component as a plugin that developers could use in their own applications. In
-short, the RO Crate engine internal to Describo Online was extracted into a standalone VueJS
-component others could use in their applications and customise without needing to fork the whole
-environment or run what had become an overly complex environment. As a tool trying to be all things
-to all groups (via the design requirement to talk to various storage backends) Describo online was
-already showing signs of significant technical debt.
+the crate builder component as an RO-Crate plugin that developers could use in their own
+applications. In short, the RO Crate engine internal to Describo Online was extracted into a
+standalone VueJS component others could use in their applications and customise without needing to
+fork the whole environment or run what had become an overly complex environment. As a tool trying to
+be all things to all groups (via the design requirement to talk to various storage backends)
+Describo online was already showing signs of significant technical debt.
 
 During the year, Marco was contacted by the people at Sztaki in Hungary to talk about how they
 wished to develop an RO Crate capability in Dataverse using Describo Online. The standalone
@@ -107,10 +109,10 @@ Funded by:
 ## 2023
 
 After extracting the RO Crate engine into a standalone component, Marco was able to revive the
-Describo Desktop application as well as create a web based application for users who didn't want, or
-weren't able, to install the desktop version. The component enabled the development of different
-tools for different users, all with a consistent user experience. And developers using the component
-weren't required to deal with the technical debt inherent in the design of Describo Online.
+Describo Desktop application as well as create a web based application for users who needed basic
+RO-Crate editing capability. The component enabled the development of different tools for different
+users, all with a consistent user experience. And developers using the component weren't required to
+deal with the technical debt inherent in the design of Describo Online.
 
 This was also a key turning point in the direction of Describo in that it allowed users to decide
 how their environments should work without needing to accept compromises or decisions made by the
@@ -125,12 +127,12 @@ others.
 
 Marco has continued contributing to the Describo environment as an open source developer when time
 permits. This includes maintaining the crate component (with help from our Hungarian friends at
-Sztaki), the desktop and web versions, profiles, data packs and this website. Marco is the current
-Technical Lead of the Describo Project.
+Sztaki), the desktop and web versions, profiles, data packs the website and this documentation.
+Marco is the current Technical Lead of the Describo Project.
 
 Peter envisioned a tool that copies most of the Describo innovations but is architected differently
-and so decided to pursue that vision elsewhere using funding from the Language Data Commons Project
-of Australia.
+and chose to pursue that vision elsewhere using funding from the Language Data Commons Project of
+Australia.
 
 ::: tip Info
 

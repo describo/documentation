@@ -28,7 +28,7 @@ sources. You can read about the history and who has provided funding for this wo
 
 Browser environments are locked down extremely tightly as they are a common attack vector for
 computers. Because of this, there are many capabilities that are impossible to implement in
-environments like that.
+browsers.
 
 Typically, a web application is the 'client' part of a client/ server application. This is known as
 a SAAS (Software as a Service) application. Whilst a SAAS application can do all of the things
@@ -54,7 +54,7 @@ Unfortunately, their README is misleading about the differences between it and D
 time, they have copied many of the Describo innovations including most recently, making an
 embeddable component available .
 
-To address the comment of a "general purpose tool": Describo is a general purpose tool. As browser
+To address his comment of a "general purpose tool": Describo is a general purpose tool. As browser
 environments are extremely limited in what they can do, the web version of Describo is only
 targetted at simple usage where one wants to browse an RO-Crate. Describo desktop is like a a client
 / server application all in one and that enables the capabilities coming soon!
@@ -87,9 +87,9 @@ profile author can choose to make the linked entities visible in the UI. RO-Crat
 not have this capability.
 
 The authors claim that their profiles are no longer compatible with Describo but that is incorrect
-and misleading. There are elements of their profiles that Describo would ignore but for the most
-part, the profiles are still compatible even though Describo Profiles are more powerful as they copy
-the same basic structure.
+and purposefully misleading. There are elements of their profiles that Describo would ignore but for
+the most part, the profiles are still compatible even though Describo Profiles are more powerful as
+they copy the same basic structure.
 
 Unfortunately, the maintainers chose to not engage with Describo Profiles and when asked why,
 refused to communicate.

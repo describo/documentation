@@ -65,9 +65,7 @@ _their_ documentation.
 ## Vue Router Dependency
 
 The app can handle updating the route with the current active entity or that capability can be
-completely disabled (ie you want to do it yourself or maybe you're using the webcomponent build). Be
-sure to read the note about internal routing in the section:
-[Unreactive Properties](#unreactive-properties)
+completely disabled (ie you want to do it yourself or maybe you're using the webcomponent build).
 
 ## Fontawesome free icons and element-plus dependencies
 

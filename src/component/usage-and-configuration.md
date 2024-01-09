@@ -105,8 +105,9 @@ export class Lookup {
 
 ::: tip
 
-**See [./src/app/lookup.js](./src/app/lookup.js) for an example. In fact, you probably want to start
-from there.**
+See
+[https://github.com/describo/crate-builder-component/blob/master/src/app/lookup.js](https://github.com/describo/crate-builder-component/blob/master/src/app/lookup.js)
+for an example. In fact, you probably want to start from there.
 
 :::
 

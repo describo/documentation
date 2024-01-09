@@ -8,10 +8,10 @@ aside: false
 You can override all of the default styles in the application with anything from tailwind. To do
 this, provide your own styles after you import the component into your application.
 
-You can get the override-styles.css file from:
-[https://github.com/describo/crate-builder-component/blob/revise-internals/src/app/override-styles.css](https://github.com/describo/crate-builder-component/blob/revise-internals/src/app/override-styles.css).
-
 ```JS
+
+// Wire it up in your app init
+
 import { createApp } from "vue";
 import App from "./App.vue";
 import DescriboCrateBuilder from "../crate-builder/index.js";
@@ -21,7 +21,10 @@ import "./override-styles.css"; // <-- override the styling in this file.
 
 ## override-styles.css
 
-The styles override file with all of the available css prop's is shown following:
+You can get the override-styles.css file from:
+[https://github.com/describo/crate-builder-component/blob/revise-internals/src/app/override-styles.css](https://github.com/describo/crate-builder-component/blob/revise-internals/src/app/override-styles.css).
+
+All of the available css prop's are shown following:
 
 ```css
 /*

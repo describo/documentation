@@ -17,8 +17,8 @@ The simple data types you can define for a type are as follows:
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["Text"]
 },
@@ -30,8 +30,8 @@ The simple data types you can define for a type are as follows:
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["TextArea"]
 },
@@ -43,8 +43,8 @@ The simple data types you can define for a type are as follows:
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["Number"]
 },
@@ -58,8 +58,8 @@ The simple data types you can define for a type are as follows:
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["Date", "DateTime", "Time" ]
 },
@@ -71,8 +71,8 @@ The simple data types you can define for a type are as follows:
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["Geo"]
 },
@@ -84,8 +84,8 @@ The simple data types you can define for a type are as follows:
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["URL"]
 },
@@ -94,7 +94,7 @@ The simple data types you can define for a type are as follows:
 Returns:
 
 ```JSON
-{ @id: ${URL}, @type: 'URL' }
+{ @id: ${URL}, @type: 'URL', name: ${URL} }
 ```
 
 Will report an error if the user types in something that doesn't look like a URL. Accepted protocols
@@ -106,8 +106,8 @@ are: 'http', 'https', 'ftp', 'ftps', 'arcp'.
 
 ```JSON
 {
-     "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["Select"],
     "values": [
@@ -122,8 +122,8 @@ are: 'http', 'https', 'ftp', 'ftps', 'arcp'.
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["SelectURL"],
     "values": [
@@ -137,8 +137,8 @@ are: 'http', 'https', 'ftp', 'ftps', 'arcp'.
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": ["SelectObject"],
     "values": [
@@ -150,10 +150,14 @@ are: 'http', 'https', 'ftp', 'ftps', 'arcp'.
 
 returns the selected object as defined and links it into the graph.
 
-**If you need to define objects in your profile as pre-created bits of configuration to inject, then
+::: tip
+
+If you need to define objects in your profile as pre-created bits of configuration to inject, then
 you are likely better off creating a datapack and just wiring up lookups from the Describo component
 to the service hosting the pack. We recommend elastic search as it's easy to run and manage, and
-Describo will emit an elastic query for you to send to the server**
+Describo will emit an elastic query for you to send to the server.
+
+:::
 
 ## Value
 
@@ -161,8 +165,8 @@ Describo will emit an elastic query for you to send to the server**
 
 ```JSON
 {
-    "id": "https://schema.org/name",
-    "name": "name",
+    "id": "...",
+    "name": "...",
     ...
     "type": "Value",
     "value": "red"

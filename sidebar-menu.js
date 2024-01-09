@@ -8,10 +8,11 @@ export const sidebar = [
         link: "/faqs",
     },
     { text: "Beginner Tutorial", link: "/guide/five-minute-tutorial" },
-    // {
-    //     text: "User Guide",
-    //     items: [],
-    // },
+    { text: "Team", link: "/team" },
+    {
+        text: "Desktop User Guide",
+        items: [{ text: "Product Tour", link: "/guide/tour.md" }],
+    },
     {
         text: "Profiles",
         items: [

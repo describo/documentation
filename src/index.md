@@ -25,6 +25,18 @@ layout: doc
 
 # Describo Documentation
 
+Describo is an ecosystem of tools, software components and services to create and manage linked open
+data in the form of
+[Research Object Crates](https://www.researchobject.org/ro-crate/specification.html).
+
+::: tip Info
+
+<div class="text-xl">
+    The main website is @ <a href="https://describo.github.io/#/" target="_blank">https://describo.github.io/#/</a>
+</div>
+
+:::
+
 ## Get Describo
 
 Are you a user looking to get started with Describo?

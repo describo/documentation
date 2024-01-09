@@ -1,8 +1,11 @@
 ---
 title: Advanced Usage
+aside: false
 ---
 
 # Advanced Usage
+
+[[toc]]
 
 The component was explicitly designed to be simple to get started with. At a minimum, you can pass
 in an RO-crate and the component will display it and make all of schema.org available for
@@ -49,6 +52,21 @@ Following are some examples of how you can use these methods.
 
 ## Add some data to crate, modify the root dataset and refresh the display
 
+::: warning NOTE!
+
+Be sure to call `refresh()` after you've manipulated the internal crate state if your changes affect
+the currently displayed entity. If you don't, you won't see the changes in the UI.
+
+:::
+
+::: tip NOTE
+
+When you manipulate the internal crate state from outside, the `@save` event won't fire so it's up
+to you to pull the latest crate from the component - via `cm.exportCrate()` - and save it when you
+are ready to. The `@save` event only fires from user interactions in the describo component.
+
+:::
+
 ```JS
 const { cm, refresh } = describo.value;
 cm.setProperty({ id: "./", property: "author", value: 1 });
@@ -73,8 +91,7 @@ setTab("numbers");
 
 ::: warning NOTE!
 
-It's up to the application to know what tab to display. The component doesn't do any checking of
-this.
+It's up to the application to know what tab to display. The component doesn't check this.
 
 :::
 
@@ -87,7 +104,6 @@ setCurrentEntity({ id: "#person" });
 
 ::: warning NOTE!
 
-It's up to the application to know that the entity exists. The component doesn't do any checking of
-this.
+It's up to the application to know that the entity exists. The component doesn't check this.
 
 :::
