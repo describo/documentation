@@ -32,7 +32,7 @@ data in the form of
 ::: tip Info
 
 <div class="text-xl">
-    The main website is @ <a href="https://describo.github.io/#/" target="_blank">https://describo.github.io/#/</a>
+    The main website is @ <a href="https://describo.github.io/" target="_blank">https://describo.github.io/</a>
 </div>
 
 :::
