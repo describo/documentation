@@ -34,7 +34,7 @@ const cards = [
         image: "./images/tour/desktop4.png",
     },
     {
-        text: `Entities can be created directly. 'Spatial Coverge' is expecting an entity of type place and describo provides controls
+        text: `Entities can be created directly. 'Spatial Coverage' is expecting an entity of type place and describo provides controls
         to create a new entity. In this case, we are creating an entity of type place with the name 'Somewhere'.`,
         image: "./images/tour/desktop5.png",
     },

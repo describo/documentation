@@ -5,7 +5,7 @@ title: Get Started
 # Describo Profiles
 
 Describo is driven by profiles. A profile is a set of instructions to the UI to describe how it
-should act. Put another way, Describo profiles limit what your users can describe.
+should act. Put another way, Describo profiles define what your users can describe.
 
 By default, Describo makes available all of Schema.org. Often times we don't want to expose all of
 this to our users so profiles are a way for a community to tell Describo exactly what users are
