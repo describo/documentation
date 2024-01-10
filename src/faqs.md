@@ -55,9 +55,10 @@ time, they have copied many of the Describo innovations including most recently,
 embeddable component available .
 
 To address his comment of a "general purpose tool": Describo is a general purpose tool. As browser
-environments are extremely limited in what they can do, the web version of Describo is only
-targetted at simple usage where one wants to browse an RO-Crate. Describo desktop is like a a client
-/ server application all in one and that enables the capabilities coming soon!
+environments are extremely limited in what they can do, the web version of Describo is only targeted
+at simple usage where one wants to browse an RO-Crate and possibly make a few metadata edits.
+Describo desktop is like a a client / server application all in one and that enables the
+capabilities coming soon!
 
 ## How do RO-Crate Editor Profiles compare to Describo Profiles?
 
