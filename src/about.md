@@ -125,17 +125,24 @@ repository as a hosting point for domain specific profiles that the Desktop and 
 dynamically pull profiles from so users could get started quickly with definitions created by
 others.
 
-Marco has continued contributing to the Describo environment as an open source developer when time
-permits. This includes maintaining the crate component (with help from our Hungarian friends at
+At the time of these developments Peter expressed his disdain for them calling into question the
+existence of the embeddable component and the fact that it didn't use his ro-crate-js library. In
+addition, Peter was displeased with the registration of the Describo organisation feeling that it
+should have remained in the Arkisto organisation on Github (in his own repository he has referred to
+the many versions of Describo; conveniently ignoring the history that he oversaw and commissioned).
+As a result, when invited to be an owner of the Describo organisation he declined; twice. At that
+point, Peter decided that he would take the considerable funding of the Language Data Commons and
+direct it to an alternative product that copies many of the Describo innnovations; including most
+recently, an embeddable component...
+
+In the end,
+`Peter has not been associated with the Describo project or any of its components since early 2023`.
+Further, he and his team have created copies of a number of the elements of the Describo ecosystem
+in order to slightly tweak them and claim differentation from the original versions. Whilst this is
+certainly allowed for by the open source licensing, it's not representative of open source
+collaboration. At no point has he or any of his team engaged with Describo to discuss their
+requirements or shared developments; or provide updates back to the mainline that got them started.
+
+Meanwhile, Marco has continued building the Describo environment as an open source developer when
+time permits. This includes maintaining the crate component (with help from our Hungarian friends at
 Sztaki), the desktop and web versions, profiles, data packs the website and this documentation.
-Marco is the current Technical Lead of the Describo Project.
-
-Peter envisioned a tool that copies most of the Describo innovations but is architected differently
-and chose to pursue that vision elsewhere using funding from the Language Data Commons Project of
-Australia.
-
-::: tip Info
-
-Peter has not been associated with the Describo project or any of its components since early 2023.
-
-:::
