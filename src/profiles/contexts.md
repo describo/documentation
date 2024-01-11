@@ -78,7 +78,7 @@ ontologies and namespacing them. We'll see how to use this further on.
     @context: [
         "https://w3id.org/ro/crate/1.1/context",
         { "foaf": "http://xmlns.com/foaf/0.1" },
-        { "dcterms": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" }
+        { "dcterms": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" },
         {
             somePropertyInYourDomain: "https://your domain/path/to/definition#somePropertyInYourDomain"
         }
@@ -108,7 +108,7 @@ the profile itself. Then, in your input definitions you can do:
                     ...
                 },
                 {
-                    id: `https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/abstract`,
+                    id: `https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#abstract`,
                     name: 'dcterms:abstract'
                 }
             ]

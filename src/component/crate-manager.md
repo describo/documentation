@@ -89,7 +89,7 @@ As at January 2024, Crate Manager is significantly smalller than the ro-crate-js
 
 | library      | Lines of Code | %   |
 | ------------ | ------------- | --- |
-| CrateManager | 718           | 62  |
+| CrateManager | 798           | 69  |
 | ro-crate-js^ | 1164          | 100 |
 
 ^The ro crate schema was removed from the defaults file for this count.
