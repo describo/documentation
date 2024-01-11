@@ -9,6 +9,7 @@ export const sidebar = [
     },
     { text: "Beginner Tutorial", link: "/guide/five-minute-tutorial" },
     { text: "Team", link: "/team" },
+    { text: "Support this work", link: "/support" },
     {
         text: "Desktop User Guide",
         items: [
