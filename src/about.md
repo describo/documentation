@@ -139,9 +139,9 @@ In the end,
 `Peter has not been associated with the Describo project or any of its components since early 2023`.
 Further, he and his team have created copies of a number of the elements of the Describo ecosystem
 in order to slightly tweak them and claim differentation from the original versions. Whilst this is
-certainly allowed for by the open source licensing, it's not representative of open source
+certainly allowed for by the open source licensing, it's not in the spirit of open source
 collaboration. At no point has he or any of his team engaged with Describo to discuss their
-requirements or shared developments; or provide updates back to the mainline that got them started.
+requirements, shared developments or provide updates back to the mainline that got them started.
 
 Meanwhile, Marco has continued building the Describo environment as an open source developer when
 time permits. This includes maintaining the crate component (with help from our Hungarian friends at
