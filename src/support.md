@@ -16,11 +16,8 @@ Hi :wave:,
 </div>
 
 If you like Describo and find it useful, please consider supporting it. There are different ways to
-help but this page is about financial support
-
-All of the Describo components are free to use - **forever**. But that doesn't mean they are free to
-create. Indeed, this work exists because of two decades of experience delivering research
-infrastructure and tools.
+help but this page is about financial support. All of the Describo components are free to use -
+**forever**. But that doesn't mean they are free to create.
 
 So, if you can support the work, please head on over to my Github Sponsors page:
 

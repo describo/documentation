@@ -70,9 +70,6 @@ In short, they are a limited version of Describo Profiles.
 On one of their sites they claim that RO-Crate Editor files are definitely not compatible with
 Describo. This is absolutely incorrect. Following is an explanation of why.
 
-I can't explain why the lead is making that claim other than perhaps trying to paint Describo in a
-negative light for personal gain.
-
 :::
 
 One of the key innovations of Describo was the development of profiles to drive the user interface.
