@@ -7,6 +7,12 @@ aside: false
 
 [[toc]]
 
+::: tip
+
+Be sure to also read the [next page about Data Validation](./validation).
+
+:::
+
 ## Basic Usage - pass in crate and profile
 
 In it's most basic form, the component is plugged in as:

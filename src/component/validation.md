@@ -2,11 +2,67 @@
 title: validation
 ---
 
-# Validation
+# Data Validation
+
+Data validation is extremely important. When using this component with data created in your
+application, it's recommended that you pass your data through the helpers this component uses to
+ensure that you data won't be rejected by the component. Or worse, cause unexpected behaviour.
+
+## Validate acceptable URL's
+
+This method will tell you if a URL is valid in describo's eyes. A valid url is anything starting
+with `http, https, ftp, ftps` and all `arcp` identifiers.
+
+```JS
+import { isURL } from "@describo/crate-builder-component/src/crate-builder/CrateManager/lib.js"
+
+let url = `a url to check`
+const isValid = isURL(url)
+```
+
+## Normalise an entity
+
+There are a lot of ways an entity definition can cause problems. This method fixes those as much as
+it can and throws errors for things that can't be fixed. The method is heavily commented to explain
+what it does and why so look there for more information.
+
+::: warning
+
+Describo aims to enforce a strict interpretation of the RO Crate spec. That means, `SHOULD` is
+typically treated as `MUST`. This is especially important when creating DATASET entities outside of
+describo. They `MUST` end in a trailing slash. This method does that for you. If you don't do this
+yourself, you will lose data when the component reads your crate.
+
+:::
+
+```JS
+import { normalise } from "@describo/crate-builder-component/src/crate-builder/CrateManager/lib.js"
+
+let entity = { ... an entity definition ... }
+
+// pass in the entity and some identifier to use and
+//   you get back an entity with:
+//  * a valid @id
+//  * an @type array
+//  * a name based on @id if not defined.
+entity = normalise(entity, i)
+```
+
+## Normalise entity @type
+
+Used by the normalise method you probably don't need to use this directly but you can if you want.
+
+```JS
+import { normaliseEntityType } from "@describo/crate-builder-component/src/crate-builder/CrateManager/lib.js"
+
+let entity = { ... an entity definition ... }
+entity = normaliseEntityType({ entity })
+```
 
 ## Profile validation
 
-Included in this bundle is a method you can use in your own application to validate the profile.
+Included in this bundle is a method you can use in your own application to validate the profile. You
+should validate your profile `before` passing it to the component.
 
 ```JS
 import validateProfile from "@describo/crate-builder-component/src/crate-builder/helpers.js"

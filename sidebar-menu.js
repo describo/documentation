@@ -40,12 +40,12 @@ export const sidebar = [
         items: [
             { text: "Get Started", link: "/component/get-started" },
             { text: "Usage & Configuration", link: "/component/usage-and-configuration" },
+            { text: "Data Validation", link: "/component/validation" },
             { text: "Advanced Usage", link: "/component/advanced-usage" },
             { text: "Crate Manager", link: "/component/crate-manager" },
             { text: "Identifiers", link: "/component/identifiers" },
             { text: "Internationalisation", link: "/component/internationalisation" },
             { text: "Themes", link: "/component/themes" },
-            { text: "Validation", link: "/component/validation" },
         ],
     },
 ];
