@@ -12,6 +12,7 @@ export const sidebar = [
     { text: "Support this work", link: "/support" },
     {
         text: "Desktop User Guide",
+        collapsed: false,
         items: [
             { text: "Product Tour", link: "/guide/tour" },
             { text: "Installation", link: "/guide/installation" },
@@ -20,6 +21,7 @@ export const sidebar = [
     },
     {
         text: "Profiles",
+        collapsed: true,
         items: [
             { text: "Get Started", link: "/profiles/get-started" },
             { text: "Profile Structure", link: "/profiles/profile-structure" },
@@ -34,6 +36,7 @@ export const sidebar = [
     },
     {
         text: "Component",
+        collapsed: true,
         items: [
             { text: "Get Started", link: "/component/get-started" },
             { text: "Usage & Configuration", link: "/component/usage-and-configuration" },

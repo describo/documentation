@@ -130,10 +130,10 @@ existence of the embeddable component and the fact that it didn't use his ro-cra
 addition, Peter was displeased with the registration of the Describo organisation feeling that it
 should have remained in the Arkisto organisation on Github (in his own repository he has referred to
 the many versions of Describo; conveniently ignoring the history that he oversaw and commissioned).
-As a result, when invited to be an owner of the Describo organisation he declined; twice. At that
-point, Peter decided that he would take the considerable funding of the Language Data Commons and
-direct it to an alternative product that copies many of the Describo innnovations; including most
-recently, an embeddable component...
+As a result, when invited to be an owner of the Describo organisation he declined. At that point,
+Peter decided that he would take the considerable funding of the Language Data Commons and direct it
+to an alternative product that copies many of the Describo innnovations; including most recently, an
+embeddable component...
 
 In the end,
 `Peter has not been associated with the Describo project or any of its components since early 2023`.
