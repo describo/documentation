@@ -18,10 +18,10 @@ current the work and access the settings. ![](./images/working-with-a-crate/desk
 
 ## Main editor window
 
-The main editor window has a controls bar along the top. On the far left are On it there are
-controls to navigate through the entities in the crate; add properties to the current entity; edit
-the context; preview the crate data; browse the entities in the crate; and view the linkages to the
-current entity. ![](./images/working-with-a-crate/desktop3.png)
+The main editor window has a controls bar along the top. On it there are controls to navigate
+through the entities in the crate; add properties to the current entity; edit the context; preview
+the crate data; browse the entities in the crate; and view the linkages to the current entity.
+![](./images/working-with-a-crate/desktop3.png)
 
 ### Navigating to an entity
 

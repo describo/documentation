@@ -13,16 +13,17 @@ Various elements of the describo ecosystem have been developed via project fundi
 sources. You can read about the history and who has provided funding for this work on the
 [about page](/about).
 
-<div
-    class="flex flex-row space-x-4 items-center bg-slate-100 p-4 text-slate-800 rounded-lg my-4"
->
-    <div><i class="text-red-600 fa-solid fa-circle-info fa-2x"></i></div>
+<div class="flex flex-row space-x-4 justify-center bg-slate-100 p-4 text-slate-800 rounded-lg my-4 text-lg">
     <div>
-        Describo is currently unfunded. It you like it and find it useful, please
-        reach out to discuss how you can support its development.
-        <a href="mailto:m@lr.id.au" target="_blank">Email Marco La Rosa.</a>
+        <i class="fa-solid fa-circle-info text-red-600 fa-2x"></i>
+    </div>
+    <div>
+        Describo is currently unfunded.
     </div>
 </div>
+
+Please see the page [`Support this work`](/support) if you are able to provide funding to keep
+development going.
 
 ## Why is the desktop application more functional than the web version?
 
@@ -64,6 +65,16 @@ capabilities coming soon!
 
 In short, they are a limited version of Describo Profiles.
 
+::: warning NOTE
+
+On one of their sites they claim that RO-Crate Editor files are definitely not compatible with
+Describo. This is absolutely incorrect. Following is an explanation of why.
+
+I can't explain why the lead is making that claim other than perhaps trying to paint Describo in a
+negative light for personal gain.
+
+:::
+
 One of the key innovations of Describo was the development of profiles to drive the user interface.
 When Marco invented this capability, he designed it so that a profile author could selectively
 augment schema.org definitions. Consider 'Dataset' which is a subclass of 'CreativeWork' which is
@@ -90,7 +101,9 @@ not have this capability.
 The authors claim that their profiles are no longer compatible with Describo but that is incorrect
 and purposefully misleading. There are elements of their profiles that Describo would ignore but for
 the most part, the profiles are still compatible even though Describo Profiles are more powerful as
-they copy the same basic structure.
+they copy the same basic structure. And they could easily be mapped to the Describo Profiles format
+if the project lead were interested in maintaining tool compatibility and mitigating the complexity
+confronting users because of their decisions...
 
 Unfortunately, the maintainers chose to not engage with Describo Profiles and when asked why,
 refused to communicate.

@@ -16,7 +16,7 @@ export const sidebar = [
         items: [
             { text: "Product Tour", link: "/guide/tour" },
             { text: "Installation", link: "/guide/installation" },
-            { text: "Working with a Crate", link: "/guide/working-with-a-crate" },
+            { text: "Working with an RO-Crate", link: "/guide/working-with-a-crate" },
         ],
     },
     {
@@ -41,9 +41,9 @@ export const sidebar = [
             { text: "Get Started", link: "/component/get-started" },
             { text: "Usage & Configuration", link: "/component/usage-and-configuration" },
             { text: "Data Validation", link: "/component/validation" },
+            { text: "Identifiers", link: "/component/identifiers" },
             { text: "Advanced Usage", link: "/component/advanced-usage" },
             { text: "Crate Manager", link: "/component/crate-manager" },
-            { text: "Identifiers", link: "/component/identifiers" },
             { text: "Internationalisation", link: "/component/internationalisation" },
             { text: "Themes", link: "/component/themes" },
         ],

@@ -23,7 +23,7 @@ Here's the
 with comments explaining what the check is
 
 ```JS
-eexport function validateId({ id, type }) {
+export function validateId({ id, type }) {
     if (!id) {
         return { isValid: false };
     }
