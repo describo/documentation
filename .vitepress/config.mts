@@ -43,7 +43,7 @@ export default defineConfig({
             {
                 name: "keywords",
                 content:
-                    "Describo, Research Object ,RO-Crate, rocrate, metadata, jsonld, editor, vue component, RO - Crate editor",
+                    "Describo, Research Object, Research-Object Crate, RO-Crate, rocrate, metadata, jsonld, editor, VueJS component, RO-Crate editor, JSON Linked Data, jsonld, json-ld, Linked Data",
             },
         ],
         [
@@ -51,14 +51,6 @@ export default defineConfig({
             {
                 name: "author",
                 content: "Dr Marco La Rosa (https://marcolarosa.github.io/)",
-            },
-        ],
-        [
-            "meta",
-            {
-                name: "keywords",
-                content:
-                    "Describo, Research-Object Crate, RO-Crate, VueJS, JSON Linked Data, jsonld, json-ld, Linked Data",
             },
         ],
         [
