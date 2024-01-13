@@ -65,13 +65,6 @@ capabilities coming soon!
 
 In short, they are a limited version of Describo Profiles.
 
-::: warning NOTE
-
-On one of their sites they claim that RO-Crate Editor files are definitely not compatible with
-Describo. This is absolutely incorrect. Following is an explanation of why.
-
-:::
-
 One of the key innovations of Describo was the development of profiles to drive the user interface.
 When Marco invented this capability, he designed it so that a profile author could selectively
 augment schema.org definitions. Consider 'Dataset' which is a subclass of 'CreativeWork' which is
@@ -95,12 +88,18 @@ linking entities like actions. Where an action defines an object, agent and a pa
 profile author can choose to make the linked entities visible in the UI. RO-Crate editor profiles do
 not have this capability.
 
-The authors claim that their profiles are no longer compatible with Describo but that is incorrect
-and purposefully misleading. There are elements of their profiles that Describo would ignore but for
-the most part, the profiles are still compatible even though Describo Profiles are more powerful as
-they copy the same basic structure. And they could easily be mapped to the Describo Profiles format
-if the project lead were interested in maintaining tool compatibility and mitigating the complexity
-confronting users because of their decisions...
+::: warning NOTE
+
+On one of their sites they claim that RO-Crate Editor files are definitely not compatible with
+Describo. This is untrue and following is an explanation of why.
+
+:::
+
+The authors claim that their profiles are no longer compatible with Describo but that is untrue and
+purposefully misleading. There are elements of their profiles that Describo would ignore but for the
+most part, the profiles are still compatible as they copy the same basic structure. Further, they
+could easily be mapped to the Describo Profiles format if the project lead were interested in
+maintaining tool compatibility and mitigating the complexity confronting the user base.
 
 Unfortunately, the maintainers chose to not engage with Describo Profiles and when asked why,
 refused to communicate.
