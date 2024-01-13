@@ -54,6 +54,14 @@ export default defineConfig({
             },
         ],
         [
+            "meta",
+            {
+                name: "keywords",
+                content:
+                    "Describo, Research-Object Crate, RO-Crate, VueJS, JSON Linked Data, jsonld, json-ld, Linked Data",
+            },
+        ],
+        [
             "script",
             { type: "application/ld+json" },
             `{
