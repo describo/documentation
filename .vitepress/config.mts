@@ -41,6 +41,13 @@ export default defineConfig({
         [
             "meta",
             {
+                name: "title",
+                content: "Describo: JSON-LD tools, software and services to manage RO-Crates.",
+            },
+        ],
+        [
+            "meta",
+            {
                 name: "keywords",
                 content:
                     "Describo, Research Object, Research-Object Crate, RO-Crate, rocrate, metadata, jsonld, editor, VueJS component, RO-Crate editor, JSON Linked Data, jsonld, json-ld, Linked Data",
@@ -58,7 +65,7 @@ export default defineConfig({
             { type: "application/ld+json" },
             `{
                 "@context": "https://schema.org/",
-                "@id": "https://describo.github.io/documentation"
+                "@id": "https://describo.github.io/documentation",
                 "@type": "WebSite",
                 "name": "Describo: JSON-LD tools, software and services to manage RO-Crates.",
                 "mainEntityOfPage": "https://describo.github.io/",
