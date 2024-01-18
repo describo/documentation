@@ -7,6 +7,9 @@ export default defineConfig({
     base: "/documentation/",
     srcDir: "./src",
     outDir: "./docs",
+    sitemap: {
+        hostname: "https://example.com",
+    },
     description:
         "Describo is an ecosystem of tools, software components and services to create and manage linked open data in the form of Research Object Crates.",
     head: [
