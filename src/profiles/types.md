@@ -24,13 +24,15 @@ The simple data types you can define for a type are as follows:
 },
 ```
 
-Additional constraints can be defined for this type:
+Constraints can be defined for this type:
 
 -   `minLength`: minimum required length for value
 -   `maxLength`: maximum allowed length for value
 -   `regex`: a regular expression the value has to match
 -   `dateFormat`: one or many (array) of possible date formats to be matched: see:
-    [Day.js formats](https://day.js.org/docs/en/display/format)
+    [Day.js formats](https://day.js.org/docs/en/display/format). In some cases a date picker can be
+    difficult to use and an ISO String is not what is required. Use this constraint to get something
+    that looks like a date but without the limitations of the date picker.
 
 ::: info
 
@@ -52,7 +54,7 @@ Examples at
 },
 ```
 
-Additional constraints can be defined for this type:
+Constraints can be defined for this type:
 
 -   `minLength`: minimum required length for value
 -   `maxLength`: maximum allowed length for value
@@ -78,7 +80,7 @@ Examples at
 },
 ```
 
-Additional constraints can be defined for this type:
+Constraints can be defined for this type:
 
 -   `minValue`: minimum possible value to be entered
 -   `maxValue`: maximum possible value to be entered
