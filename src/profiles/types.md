@@ -24,6 +24,21 @@ The simple data types you can define for a type are as follows:
 },
 ```
 
+Additional constraints can be defined for this type:
+
+-   `minLength`: minimum required length for value
+-   `maxLength`: maximum allowed length for value
+-   `regex`: a regular expression the value has to match
+-   `dateFormat`: one or many (array) of possible date formats to be matched: see:
+    [Day.js formats](https://day.js.org/docs/en/display/format)
+
+::: info
+
+Examples at
+[https://github.com/describo/crate-builder-component/blob/master/src/examples/profile/profile-with-constraints.json](https://github.com/describo/crate-builder-component/blob/master/src/examples/profile/profile-with-constraints.json)
+
+:::
+
 ## TextArea
 
 -   `TextArea`: a simple text area box
@@ -37,6 +52,19 @@ The simple data types you can define for a type are as follows:
 },
 ```
 
+Additional constraints can be defined for this type:
+
+-   `minLength`: minimum required length for value
+-   `maxLength`: maximum allowed length for value
+-   `regex`: a regular expression the value has to matched
+
+::: info
+
+Examples at
+[https://github.com/describo/crate-builder-component/blob/master/src/examples/profile/profile-with-constraints.json](https://github.com/describo/crate-builder-component/blob/master/src/examples/profile/profile-with-constraints.json)
+
+:::
+
 ## Number
 
 -   `Number`: A number input
@@ -49,6 +77,20 @@ The simple data types you can define for a type are as follows:
     "type": ["Number"]
 },
 ```
+
+Additional constraints can be defined for this type:
+
+-   `minValue`: minimum possible value to be entered
+-   `maxValue`: maximum possible value to be entered
+-   `numberType`: one or many (array) of "any", "long", "int", "float", "double". It maybe an array
+    to allow specifying any of the possible numberType values
+
+::: info
+
+Examples at
+[https://github.com/describo/crate-builder-component/blob/master/src/examples/profile/profile-with-constraints.json](https://github.com/describo/crate-builder-component/blob/master/src/examples/profile/profile-with-constraints.json)
+
+:::
 
 ## Date, DateTime, Time
 
