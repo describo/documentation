@@ -37,7 +37,7 @@ export default defineConfig({
         // ...
     ],
     optimizeDeps: {
-        include: ["ajv", "element-plus", "@describo/crate-builder-component" ],
+        include: ["element-plus", "@describo/crate-builder-component", "ajv", "dayjs" ],
     },
 });
 ```
