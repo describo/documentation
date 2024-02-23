@@ -16,7 +16,30 @@ export const sidebar = [
         items: [
             { text: "Product Tour", link: "/guide/tour" },
             { text: "Installation", link: "/guide/installation" },
-            { text: "Working with an RO-Crate", link: "/guide/working-with-a-crate" },
+            {
+                text: "Configuration",
+                collapsed: false,
+                items: [
+                    {
+                        text: "AWS integration",
+                        link: "/guide/configuration/setting-up-aws",
+                    },
+                ],
+            },
+            {
+                text: "Tutorials",
+                collapsed: false,
+                items: [
+                    {
+                        text: "What is RO-Crate and JSON-LD?",
+                        link: "/guide/tutorials/explainer-rocrate-and-jsonld",
+                    },
+                    {
+                        text: "Working with an RO-Crate",
+                        link: "/guide/tutorials/working-with-a-crate",
+                    },
+                ],
+            },
         ],
     },
     {
