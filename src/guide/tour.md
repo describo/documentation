@@ -10,39 +10,42 @@ const glob = import.meta.glob("../guide/images/tour/*.png", { eager: true })
 import Stack from '../vue-components/Stack.vue'
 const cards = [
     {
-        text: "The dashboard. Select a folder of content to describe; load a previously used folder or manage data pack data.",
+        text: `The dashboard. Select a folder of content to describe; load a previously used folder or manage data pack data.
+        Whether you are describing research data or creating a cultural collection, eveyrthing you do will be stored in this folder.
+        Nothing is locked up inside Describo.`,
         image: "./images/tour/desktop1.png",
     },
 
     {
-        text: `When the RO Crate file is loaded the root dataset is shown on the right along with a file browser on the left.
-       In the navigation bar we can see which folder is loaded as well as controls to load a profile and access settings.
+        text: `When the RO Crate file is loaded the root dataset is shown in the middle pane along with a file browser on the left.
+       In the navigation bar we can see which folder is loaded as well as controls to load a profile and access application settings.
         `,
         image: "./images/tour/desktop2.png",
     },
       {
-        text: "Context aware help.",
+        text: "Pressing the help button activates context setting help.",
         image: "./images/tour/desktop1a.png",
     },
     {
-        text: `Selecting a entity of type 'File' will display a preview of that file. The preview can be full screened to get a better look at it.`,
+        text: `Selecting a entity of type 'File' will calculate file metadata, create an entry for the file in the crate and display a preview of it
+        in the right hand panel. The preview can be full screened to get a better look at the file.`,
         image: "./images/tour/desktop3.png",
     },
     {
         text: `Describo makes all of Schema.org available to you. In the image we can see all of the properties defined by schema.org
-        for an entity of type Dataset; all the way back up the hierarchy to Thing. In addition, we can see what data types each property is expecting.
-        The 'about' property expects an entity of type 'Thing' and describo will enforce that.`,
+        for an entity of type File; all the way back up the hierarchy to Thing. In addition, we can see what data types each property is expecting.
+        The 'about' property expects an entity of type 'Thing' and Describo will enforce that.`,
         image: "./images/tour/desktop4.png",
     },
     {
-        text: `Entities can be created directly. 'Spatial Coverage' is expecting an entity of type Place and describo provides controls
+        text: `Entities can be created directly. 'Spatial Coverage' is expecting an entity of type Place and Describo provides controls
         to create a new entity of that type. In this example, we are creating an entity of type Place with the name 'Somewhere'.`,
-        image: "./images/tour/desktop5.png",
+        image: [ "./images/tour/desktop5.png", './images/tour/desktop5a.png' ]
     },
     {
         text: `Navigating to the entity we can then start managing its data. Shown is the Geometry component which enables creating
         a custom geometry for the Geo property.`,
-        image: "./images/tour/desktop6.png",
+        image:  "./images/tour/desktop6.png",
     },
     {
         text: `Describo is totally configurable via profiles. Profiles are JSON files that describe how the interface looks and  what a user can do.

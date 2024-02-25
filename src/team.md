@@ -10,7 +10,6 @@ const members = [
     avatar: 'https://github.com/marcolarosa.png',
     name: 'Dr Marco La Rosa',
     title: 'Project Lead and Core Developer',
-    orgLink: 'https://describo.github.io',
     links: [
       { icon: 'github', link: 'https://github.com/marcolarosa' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/marcolarosa/' },

@@ -55,7 +55,7 @@
 <script setup>
 import { vAutoAnimate } from "@formkit/auto-animate";
 import Card from "./Card.vue";
-import { ref, computed, onBeforeMount } from "vue";
+import { ref, computed } from "vue";
 import isArray from "lodash-es/isArray.js";
 
 const props = defineProps({
@@ -63,7 +63,6 @@ const props = defineProps({
     importGlob: { type: Object, require: true },
 });
 
-// let images = ref({});
 let images = computed(() => {
     return Object.fromEntries(
         Object.entries(props?.importGlob).map(([key, value]) => [
@@ -72,14 +71,6 @@ let images = computed(() => {
         ])
     );
 });
-// onBeforeMount(async () => {
-//     images.value = Object.fromEntries(
-//         Object.entries(props.importGlob).map(([key, value]) => [
-//             key.split("/").pop(),
-//             value.default,
-//         ])
-//     );
-// });
 const n = ref(0);
 function getImage(image) {
     return images.value[image.split("/").pop()];
