@@ -16,12 +16,13 @@ An example message is shown following:
 
 Hi,
 
-Please provision IAM credentials for use with an application I need for my work.
+Please provision AWS IAM credentials for use with an application I use for my research. Please also
+indicate which AWS region to use (e.g. ap-southeast-2)
 
-The product is called Describo Desktop and you can read about it @ https://describo.github.io.
+The product is called Describo and you can read about it @ https://describo.github.io.
 
-The application requires AWS credentials with permission to access IAM, Textract and Comprehend. The
-exact permissions required are detailed @
+Describo requires AWS credentials with permission to access IAM (to determine what has been
+enabled), Textract and Comprehend. The exact permissions required are detailed @
 https://describo.github.io/documentation/guide/configuration/setting-up-aws.html.
 
 Please consult the section 'Fine Grained Permissions' on that page for what is required.
@@ -31,6 +32,21 @@ Thanks,
 \<YOU\>
 
 :::
+
+## Setting up Describo
+
+Once you have the credentials and region information, you need to put that information into
+Describo.
+
+Open `Settings` and then the section `AWS Credentials`.
+
+![credentials image](../images/configuration/configuration1.png)
+
+Put the credentials as provided to you in the respective fields and then choose the region (which
+should also have been provided).
+
+When you press save Describo will check that the correct permissions have been enabled. If they
+have, you should see a green tick next to each Capability in the bottom section.
 
 ## Fine Grained Permissions
 
@@ -46,11 +62,11 @@ If choosing permissions explicitly, the following are required.
             "Action": [
                 "iam:GetPolicyVersion",
                 "iam:GetPolicy",
+                "iam:GetUser",
                 "iam:GetUserPolicy",
                 "iam:ListGroupsForUser",
                 "iam:ListAttachedUserPolicies",
                 "iam:ListUserPolicies",
-                "iam:GetUser"
             ],
             "Resource": [
                ...the specific user
@@ -60,17 +76,17 @@ If choosing permissions explicitly, the following are required.
             "Sid": "VisualEditor1",
             "Effect": "Allow",
             "Action": [
-                "textract:AnalyzeExpense",
-                "textract:DetectDocumentText",
-                "comprehend:DetectTargetedSentiment",
-                "s3:GetObject",
-                "comprehend:DetectSentiment",
-                "comprehend:DetectToxicContent",
-                "textract:AnalyzeDocument",
-                "comprehend:DetectEntities",
                 "comprehend:DetectDominantLanguage",
-                "comprehend:DetectPiiEntities",
+                "comprehend:DetectEntities",
                 "comprehend:DetectKeyPhrases",
+                "comprehend:DetectPiiEntities",
+                "comprehend:DetectSentiment",
+                "comprehend:DetectTargetedSentiment",
+                "comprehend:DetectToxicContent",
+                "s3:GetObject",
+                "textract:DetectDocumentText",
+                "textract:AnalyzeExpense",
+                "textract:AnalyzeDocument",
                 "textract:AnalyzeID"
             ],
             "Resource": "*"
