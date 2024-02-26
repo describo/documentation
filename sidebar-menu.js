@@ -35,7 +35,7 @@ export const sidebar = [
                 collapsed: false,
                 items: [
                     {
-                        text: "What is RO-Crate and JSON-LD?",
+                        text: "What is JSON-LD and RO-Crate?",
                         link: "/guide/tutorials/explainer-rocrate-and-jsonld",
                     },
                     {
