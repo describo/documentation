@@ -18,7 +18,7 @@ associated metadata".
 In this 5 minute tutorial, you will get started describing your data as RO-Crates!
 
 <div class="flex justify-center border border-slate-400">
-    <img src="../images/tutorial1.png" />
+    <img src="./images/five-minute-tutorial/tutorial1.png" />
 </div>
 
 ## Audience: about you
