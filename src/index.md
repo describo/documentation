@@ -46,7 +46,7 @@ Are you a user looking to get started with Describo?
 >
     <div><i class="text-yellow-400 fa-2x fa-solid fa-circle-info"></i></div>
     <div>
-        Install the <a href="https://describo.github.io/#/desktop" target="_blank">Describo desktop application</a>
+        Install the <a href="https://describo.github.io/desktop" target="_blank">Describo desktop application</a>
         to get a full
         featured environment for creating and managing your research data including being able to describe
         files, manage data packs and much, much more (coming soon).
