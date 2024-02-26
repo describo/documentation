@@ -51,7 +51,7 @@ profiles to work with the data. It does not have the capabilities of
 In the application, select a folder to describe.
 
 <div class="flex justify-center border border-slate-400">
-    <img src="../images/tutorial2.png" />
+    <img src="./images/five-minute-tutorial/tutorial2.png" />
 </div>
 
 ## Apply the RO-Crate profile
@@ -61,7 +61,7 @@ The main description view. A default RO-Crate describo profile has been created 
 Apply the profile.
 
 <div class="flex justify-center border border-slate-400">
-    <img src="../images/tutorial3.png" />
+    <img src="./images/five-minute-tutorial/tutorial3.png" />
 </div>
 
 ## Profile Selector
@@ -69,7 +69,7 @@ Apply the profile.
 The profile selector. Locate the RO-Crate profile and select it.
 
 <div class="flex justify-center border border-slate-400">
-    <img src="../images/tutorial4.png" />
+    <img src="./images/five-minute-tutorial/tutorial4.png" />
 </div>
 
 ## Describe your data
@@ -84,7 +84,7 @@ absolute bare minimum required to describe your data as an RO-Crate.
 -   [Data entities](https://www.researchobject.org/ro-crate/1.1/data-entities.html)
 
 <div class="flex justify-center border border-slate-400">
-    <img src="../images/tutorial5.png" />
+    <img src="./images/five-minute-tutorial/tutorial5.png" />
 </div>
 
 ## Go further: describe more
@@ -93,7 +93,7 @@ Click the add button in the toolbar and inject properties into the data.
 
 <div class="flex justify-center">
     <div class="border border-slate-400">
-        <img src="../images/tutorial7.png" class="w-32"/>
+        <img src="./images/five-minute-tutorial/tutorial7.png" class="w-32"/>
     </div>
 </div>
 
@@ -102,7 +102,7 @@ are defined on the type of data you are working with. In this case a Dataset. Wh
 property Describo will tell you what type of data it expects.
 
 <div class="flex justify-center border border-slate-400">
-    <img src="../images/tutorial6.png" />
+    <img src="./images/five-minute-tutorial/tutorial6.png" />
 </div>
 
 ## Where did that property go?
@@ -113,7 +113,7 @@ list view with all of your properties, sorted alphabetically. Or go back to the 
 the way that suits you best.
 
 <div class="flex justify-center border border-slate-400">
-    <img src="../images/tutorial8.png" />
+    <img src="./images/five-minute-tutorial/tutorial8.png" />
 </div>
 
 ## And that's an RO-Crate!
