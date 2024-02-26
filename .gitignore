@@ -30,3 +30,5 @@ coverage
 
 .vitepress/cache
 .vitepress/dist
+
+docs
