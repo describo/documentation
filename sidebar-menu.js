@@ -21,6 +21,10 @@ export const sidebar = [
                 collapsed: false,
                 items: [
                     {
+                        text: "General Settings",
+                        link: "/guide/configuration/general-settings",
+                    },
+                    {
                         text: "AWS integration",
                         link: "/guide/configuration/setting-up-aws",
                     },

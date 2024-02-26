@@ -40,7 +40,9 @@ Describo.
 
 Open `Settings` and then the section `AWS Credentials`.
 
-![credentials image](../images/configuration/configuration1.png)
+<div class="flex flex-row border border-slate-200">
+    <img src="../images/configuration/configuration2.png" />
+</div>
 
 Put the credentials as provided to you in the respective fields and then choose the region (which
 should also have been provided).
