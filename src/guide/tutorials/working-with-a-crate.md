@@ -44,10 +44,9 @@ be available for selection. ![](../images/tour/desktop5.png)
 
 ## File handling and preview
 
-Selecting an entity navigates to it (in this case we've navigated to the File entity that was
-defined) and displays a preview of it where possible. Note that the file size, encoding and file
-hash is automatically set by Describo. The encoding and hash are determined by the excellent
-<a href="https://www.itforarchivists.com/" target="_blank">Siegfried tool.</a>
-![](../images/tour/desktop8.png)
+Selecting a a file entity navigates to it and displays a preview of it if possible. Note that the
+file size, encoding and file hash is automatically set by Describo. The encoding and hash are
+determined by the excellent <a href="https://www.itforarchivists.com/" target="_blank">Siegfried
+tool.</a> ![](../images/tour/desktop3.png)
 
 ---

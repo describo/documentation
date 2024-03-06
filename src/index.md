@@ -37,6 +37,14 @@ data in the form of
 
 :::
 
+::: tip
+
+<strong>
+Throughout the documentation, click on the images to enlarge them and get a better look!
+</strong>
+
+:::
+
 ## Get Describo
 
 Are you a user looking to get started with Describo?

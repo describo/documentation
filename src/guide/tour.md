@@ -40,7 +40,7 @@ const cards = [
     {
         text: `Entities can be created directly. 'Spatial Coverage' is expecting an entity of type Place and Describo provides controls
         to create a new entity of that type. In this example, we are creating an entity of type Place with the name 'Somewhere'.`,
-        image: [ "./images/tour/desktop5.png", './images/tour/desktop5a.png' ]
+        image: [ "./images/tour/desktop5.png", './images/tour/desktop5a.png' ],
     },
     {
         text: `Navigating to the entity we can then start managing its data. Shown is the Geometry component which enables creating
