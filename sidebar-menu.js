@@ -42,6 +42,10 @@ export const sidebar = [
                         text: "Working with an RO-Crate",
                         link: "/guide/tutorials/working-with-a-crate",
                     },
+                    {
+                        text: "Content Transcription and Analysis",
+                        link: "/guide/tutorials/transcribing-content",
+                    },
                 ],
             },
         ],
