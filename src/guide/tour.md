@@ -23,7 +23,7 @@ const cards = [
         image: "./images/tour/desktop2.png",
     },
       {
-        text: "Pressing the help button activates context sensitive help. And the documentation link in the navigation to context specific documentation.",
+        text: "Pressing the help button activates context sensitive help. And the documentation link in the navigation bar links to context specific documentation.",
         image: "./images/tour/desktop1a.png",
     },
     {
@@ -51,7 +51,7 @@ const cards = [
         text: `For HASS researchers, Describo can perform Optical Character Recoginition (OCR) and entity recognition of your data. You can mark
         up entities and create rich datasets of entities mentioned in your data. see:
         <a href="/documentation/guide/tutorials/transcribing-content.html">/documentation/guide/tutorials/transcribing-content.html</a>`,
-        image:  "./images/tour/transcribe7.png",
+        image:  "./images/tour/transcribe9.png",
     },
     {
         text: `When using the transcription tools the data is written into the RO-Crate. And the markup is created as data attributes in the HTML.`,
