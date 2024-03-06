@@ -23,7 +23,7 @@ const cards = [
         image: "./images/tour/desktop2.png",
     },
       {
-        text: "Pressing the help button activates context setting help.",
+        text: "Pressing the help button activates context sensitive help. And the documentation link in the navigation to context specific documentation.",
         image: "./images/tour/desktop1a.png",
     },
     {
@@ -40,12 +40,22 @@ const cards = [
     {
         text: `Entities can be created directly. 'Spatial Coverage' is expecting an entity of type Place and Describo provides controls
         to create a new entity of that type. In this example, we are creating an entity of type Place with the name 'Somewhere'.`,
-        image: [ "./images/tour/desktop5.png", './images/tour/desktop5a.png' ],
+        image: "./images/tour/desktop5.png",
     },
     {
         text: `Navigating to the entity we can then start managing its data. Shown is the Geometry component which enables creating
         a custom geometry for the Geo property.`,
         image:  "./images/tour/desktop6.png",
+    },
+    {
+        text: `For HASS researchers, Describo can perform Optical Character Recoginition (OCR) and entity recognition of your data. You can mark
+        up entities and create rich datasets of entities mentioned in your data. see:
+        <a href="/documentation/guide/tutorials/transcribing-content.html">/documentation/guide/tutorials/transcribing-content.html</a>`,
+        image:  "./images/tour/transcribe7.png",
+    },
+    {
+        text: `When using the transcription tools the data is written into the RO-Crate. And the markup is created as data attributes in the HTML.`,
+        image:  [ "./images/tour/transcribe10.png",  "./images/tour/transcribe11.png" ]
     },
     {
         text: `Describo is totally configurable via profiles. Profiles are JSON files that describe how the interface looks and  what a user can do.
