@@ -12,7 +12,7 @@
                 <card :class="{ hidden: idx !== n }" v-for="(card, idx) of cards" :key="ref(idx)">
                     <template #text><div v-html="card.text"></div></template>
                     <template #image>
-                        <div class="flex flex-col space-y-2">
+                        <div class="flex flex-col space-y-2 main">
                             <img
                                 v-if="!isArray(card.image)"
                                 :src="getImage(card.image)"
@@ -55,12 +55,20 @@
 <script setup>
 import { vAutoAnimate } from "@formkit/auto-animate";
 import Card from "./Card.vue";
-import { ref, computed } from "vue";
+import { ref, computed, onMounted, watch, nextTick } from "vue";
 import isArray from "lodash-es/isArray.js";
+import mediumZoom from "medium-zoom";
 
 const props = defineProps({
     cards: { type: Array, require: true },
     importGlob: { type: Object, require: true },
+});
+onMounted(() => {
+    initZoom();
+    watch(
+        () => n.value,
+        () => nextTick(() => initZoom())
+    );
 });
 
 let images = computed(() => {
@@ -81,4 +89,8 @@ function nextCard() {
 function previousCard() {
     n.value = n.value === 0 ? props.cards.length - 1 : (n.value -= 1);
 }
+
+const initZoom = () => {
+    mediumZoom(".main img", { background: "var(--vp-c-bg)" });
+};
 </script>
